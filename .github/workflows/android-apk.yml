@@ -98,6 +98,14 @@ jobs:
             echo "Decoded debug.keystore from debug.keystore.base64"
           fi
 
+      - name: Generate debug keystore if missing
+        shell: bash
+        working-directory: ${{ steps.detect.outputs.gradle_root }}
+        run: |
+          if [ ! -f debug.keystore ]; then
+            keytool -genkeypair -v -keystore debug.keystore -storepass android -keypass android -alias androiddebugkey -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+          fi
+
       - name: Build Android Debug APK
         shell: bash
         working-directory: ${{ steps.detect.outputs.gradle_root }}
