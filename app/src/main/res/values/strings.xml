@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Zuzu Social AI</string>
+    <string name="app_tagline">Your AI-Powered Social Media Manager</string>
+    <string name="phase_badge">Release v1.0</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_studio">Studio</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome_title">Welcome to Zuzu Studio</string>
+    <string name="dashboard_welcome_subtitle">Create AI videos, motion posts, approve content, publish officially, and monitor real analytics.</string>
+    <string name="dashboard_connections_title">Social Accounts</string>
+    <string name="dashboard_connections_summary">Manage YouTube, Facebook Pages, and TikTok OAuth connections</string>
+    <string name="dashboard_metrics_title">Workspace Overview</string>
+    <string name="metric_total_projects">Total Projects</string>
+    <string name="metric_videos_created">Videos Created</string>
+    <string name="metric_motion_posts">Motion Posts Created</string>
+    <string name="metric_scheduled_posts">Scheduled Posts</string>
+    <string name="dashboard_quick_access_title">Quick Access</string>
+    <string name="dashboard_recent_activity_title">Recent Activity</string>
+    <string name="activity_initialized_title">Zuzu Social AI Workspace Active</string>
+    <string name="activity_initialized_desc">All studio, approval, official publishing, and analytics modules are integrated cleanly.</string>
+    <string name="activity_timestamp_now">Active</string>
+
+    <!-- Social Platforms -->
+    <string name="platform_youtube">YouTube</string>
+    <string name="platform_facebook">Facebook</string>
+    <string name="platform_tiktok">TikTok</string>
+    <string name="status_not_connected">Not Connected</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_error">Attention</string>
+
+    <!-- Studio & Intro Modules -->
+    <string name="studio_title">AI Creation Studio</string>
+    <string name="studio_subtitle">Create videos, design motion posts, approve campaigns, and track official performance.</string>
+    <string name="module_video_factory_title">AI Video Factory</string>
+    <string name="module_video_factory_short">Automated script-to-short video pipeline for multi-channel publishing.</string>
+    <string name="module_motion_studio_title">Auto Motion Post Studio</string>
+    <string name="module_motion_studio_short">Dynamic branded motion graphics and social carousels generated cleanly.</string>
+    <string name="intro_coming_soon_badge">Creative Module</string>
+    <string name="intro_planned_workflow">Workflow Overview</string>
+    <string name="intro_phase_note">Zuzu Social AI keeps OAuth secrets on your HTTPS backend and enforces explicit user approval before publishing.</string>
+    <string name="action_open_module">Open Module</string>
+    <string name="action_back">Back</string>
+    <string name="action_return_studio">Return to Studio</string>
+
+    <!-- Projects -->
+    <string name="projects_title">Projects</string>
+    <string name="projects_subtitle">All generated videos, motion posts, and active projects appear here.</string>
+    <string name="projects_empty_title">No Projects Yet</string>
+    <string name="projects_empty_subtitle">Create your first video project in AI Video Factory or design animated graphics in Auto Motion Post Studio.</string>
+    <string name="projects_empty_cta">Explore Studio</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Manage account readiness, social channels, security, local storage, and app preferences.</string>
+    <string name="settings_section_app_info">App Information</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_language">Language</string>
+    <string name="settings_section_notifications">Notifications</string>
+    <string name="settings_section_about">About Zuzu Social AI</string>
+    <string name="settings_app_version_label">Version</string>
+    <string name="settings_app_version_value">1.0.0</string>
+    <string name="settings_min_android_label">Compatibility</string>
+    <string name="settings_min_android_value">Android 7.0+ / 8.0+ Ready</string>
+    <string name="settings_theme_label">Luminous Creative Theme</string>
+    <string name="settings_theme_desc">Clean light glass surfaces with vibrant purple, blue &amp; pink gradients</string>
+    <string name="settings_glow_label">Ambient Card Glow</string>
+    <string name="settings_glow_desc">Subtle luminous borders on active surfaces</string>
+    <string name="settings_language_label">Display Language</string>
+    <string name="settings_language_value">English (US)</string>
+    <string name="settings_notif_workflow_label">Workflow Alerts</string>
+    <string name="settings_notif_workflow_desc">Receive updates when studio exports or publishing jobs complete</string>
+    <string name="settings_notif_schedule_label">Publishing Reminders</string>
+    <string name="settings_notif_schedule_desc">Pre-publish notifications for upcoming scheduled posts</string>
+    <string name="settings_about_summary">Zuzu Social AI is an end-to-end AI content creation, approval, official publishing, and analytics workspace for creators.</string>
+    <string name="settings_about_cta">View App Details</string>
+    <string name="dialog_close">Close</string>
+
+    <!-- Phase 02: Social Accounts -->
+    <string name="social_accounts_title">Social Accounts</string>
+    <string name="social_accounts_subtitle">Connect your official creator channels via secure PKCE OAuth and backend token exchange.</string>
+    <string name="social_accounts_manage_cta">Manage Accounts</string>
+    <string name="social_accounts_shortcut_title">Social Accounts Manager</string>
+    <string name="social_accounts_shortcut_desc">Connect or manage YouTube, Facebook, and TikTok channels</string>
+    <string name="social_accounts_security_banner">Security First: Client secrets and OAuth tokens are never stored in app code. Connections require an HTTPS backend token-exchange endpoint.</string>
+    <string name="social_status_connecting">Connecting…</string>
+    <string name="social_status_setup_required">Setup Required</string>
+    <string name="social_action_connect">Connect</string>
+    <string name="social_action_add_account">Add Another Account</string>
+    <string name="social_action_disconnect">Disconnect</string>
+    <string name="social_action_disconnect_all">Disconnect All</string>
+    <string name="social_action_retry">Retry</string>
+    <string name="social_action_setup_details">OAuth Setup Checklist</string>
+    <string name="social_action_dismiss">Dismiss</string>
+    <string name="social_setup_dialog_title">OAuth Setup Requirements</string>
+    <string name="social_setup_endpoint_label">Authorization Endpoint</string>
+    <string name="social_setup_scopes_label">Required Scopes</string>
+    <string name="social_setup_missing_label">Missing Configuration</string>
+    <string name="social_connected_accounts_label">Connected Accounts</string>
+
+    <!-- Phase 03: Content Source Manager & Media Library -->
+    <string name="nav_sources">Sources</string>
+    <string name="sources_title">Content Sources</string>
+    <string name="sources_subtitle">Organize local uploads, authorized URLs, creator sources, and reuse permissions.</string>
+    <string name="sources_shortcut_title">Content Source Manager</string>
+    <string name="sources_shortcut_desc">Upload media, import authorized URLs, and verify permissions</string>
+    <string name="sources_open_cta">Open Sources</string>
+    <string name="sources_pick_file_cta">Choose Media File</string>
+    <string name="sources_supported_formats">Supported: MP4, MOV, JPG, PNG, MP3, WAV (stored locally on device)</string>
+    <string name="sources_local_storage_note">Saved locally on this device. Cloud upload activates in Phase 04+.</string>
+    <string name="sources_url_compliance_note">A public URL does not grant reuse permission. Zuzu stores URL metadata only and never downloads protected or DRM content.</string>
+    <string name="sources_creator_compliance_note">Creator sources are cataloged for authorized reference only and are never auto-downloaded or republished.</string>
+    <string name="sources_empty_library_title">Your Media Library Is Empty</string>
+    <string name="sources_empty_library_desc">Add local videos, images, audio files, or authorized external URLs to prepare source material for AI production.</string>
+    <string name="sources_empty_creators_title">No Creator Sources Yet</string>
+    <string name="sources_empty_creators_desc">Add creators whose content you have permission or a license to reference.</string>
+    <string name="sources_empty_permissions_title">No Sources Requiring Review</string>
+    <string name="sources_empty_permissions_desc">Import an external URL or add a creator source to manage copyright and reuse permissions.</string>
+
+    <!-- Phase 04: AI Video Factory -->
+    <string name="vf_title">AI Video Factory</string>
+    <string name="vf_subtitle">Plan ideas, research facts, write Bangla or English scripts, and build scene-by-scene storyboards.</string>
+    <string name="vf_badge_active">Phase 04 Active</string>
+    <string name="vf_open_factory">Open AI Video Factory</string>
+    <string name="vf_ai_setup_banner">Gemini AI setup required for automatic generation. Manual creation and local saving work immediately.</string>
+    <string name="vf_research_disclaimer">Unverified AI placeholders are clearly labeled. Always verify facts and sources manually before publishing.</string>
+    <string name="vf_idea_disclaimer">Ideas are creative starting points and do not guarantee viral performance.</string>
+
+    <!-- Phase 05: Voice Studio, AI Visual Studio & Asset Library -->
+    <string name="voice_studio_title">Voice Studio</string>
+    <string name="voice_studio_subtitle">Configure Bangla or English voiceovers, preview speed &amp; tone, or import local audio files.</string>
+    <string name="visual_studio_title">AI Visual Studio</string>
+    <string name="visual_studio_subtitle">Generate or import scene images and video clips mapped directly to your storyboard.</string>
+    <string name="asset_library_title">Asset Library</string>
+    <string name="asset_library_subtitle">Search, preview, delete, and assign audio and visual assets across scenes.</string>
+    <string name="voice_setup_note">TTS API backend setup is required for live synthesis. Import local MP3 or WAV audio to preview real playback and assign to scenes.</string>
+    <string name="visual_setup_note">Image and video generation providers require secure backend configuration. Import local visuals per scene without blocking your workflow.</string>
+
+    <!-- Phase 06: Video Editor & MP4 Renderer -->
+    <string name="video_editor_title">Video Editor</string>
+    <string name="video_editor_subtitle">Edit timeline clips, audio tracks, Bangla/English subtitles, effects, and render MP4 videos.</string>
+    <string name="exported_library_title">Exported Video Library</string>
+    <string name="exported_library_subtitle">Preview, rename, share, or manage your rendered MP4 videos.</string>
+
+    <!-- Phase 07 & 08: Auto Motion Post Studio, Approval Center & Cloud Automation -->
+    <string name="motion_studio_title">Auto Motion Post Studio</string>
+    <string name="motion_studio_subtitle">Create animated templates, kinetic typography, social promos, and export MP4 or graphic posters.</string>
+    <string name="motion_studio_open_cta">Open Motion Studio</string>
+    <string name="motion_studio_badge_active">Phase 07 Active</string>
+    <string name="approval_center_title">Approval Center</string>
+    <string name="approval_center_subtitle">Verify media reuse permissions, review previews, edit metadata, and approve posts before scheduling.</string>
+    <string name="scheduler_title">Scheduler &amp; Automation</string>
+    <string name="scheduler_subtitle">Queue approved content via Cloud Tasks &amp; Cloud Scheduler or review backend sync readiness.</string>
+    <string name="cloud_status_title">Cloud Automation Status</string>
+    <string name="cloud_status_subtitle">Authentication, Firestore schema, Cloud Storage, Cloud Tasks &amp; Cloud Scheduler health.</string>
+
+    <!-- Phase 09: Official Social Media Publishing Integration -->
+    <string name="publishing_center_title">Publishing Center</string>
+    <string name="publishing_center_subtitle">Publish or schedule explicitly approved content to YouTube, Facebook Pages, and TikTok via official APIs.</string>
+    <string name="publishing_open_cta">Open Publishing Center</string>
+    <string name="publishing_badge_label">Official APIs</string>
+    <string name="publishing_security_note">Mandatory Gate: Only Approved, permission-verified content with a connected OAuth account can enter publishing. Secrets &amp; tokens stay strictly on the HTTPS backend.</string>
+    <string name="publishing_fb_pages_only_note">Facebook Meta Graph API supports publishing to authorized Facebook Pages only. Personal profiles are not supported.</string>
+    <string name="publishing_tiktok_inbox_note">If Direct Post scope/audit is unavailable, TikTok uploads as an Inbox Draft where final publishing must be completed inside the TikTok app.</string>
+
+    <!-- Phase 10: Analytics Dashboard & Final Release Settings -->
+    <string name="analytics_title">Analytics Dashboard</string>
+    <string name="analytics_subtitle">Monitor real publishing activity, content performance, and official YouTube, Facebook &amp; TikTok engagement when API access is connected.</string>
+    <string name="analytics_open_cta">Open Analytics Dashboard</string>
+    <string name="analytics_badge_label">Real Telemetry</string>
+    <string name="settings_section_account">Account Settings</string>
+    <string name="settings_section_connected_social">Connected Social Accounts</string>
+    <string name="settings_section_api_status">API &amp; Service Configuration</string>
+    <string name="settings_section_storage">Storage Information</string>
+    <string name="settings_section_privacy_security">Privacy &amp; Security</string>
+</resources>
